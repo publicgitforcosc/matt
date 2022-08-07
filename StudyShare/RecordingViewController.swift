@@ -1,23 +1,27 @@
 //
-//  HomeViewController.swift
+//  RecordingViewController.swift
 //  StudyShare
 //
-//  Created by Matthew Jennings on 31/07/22.
+//  Created by Matthew Jennings on 7/08/22.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
-    @IBOutlet weak var classTableView: UITableViewCell!
+class RecordingViewController: UIViewController {
     
+    // Generic view for containing video, this may not be what we want here
+    @IBOutlet weak var videoView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func recordTapped(_ sender: Any) {
+    }
+    
+    @IBAction func saveTapped(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 

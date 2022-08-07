@@ -1,15 +1,17 @@
 //
-//  HomeViewController.swift
+//  TranscriptionViewController.swift
 //  StudyShare
 //
-//  Created by Matthew Jennings on 31/07/22.
+//  Created by Matthew Jennings on 7/08/22.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class TranscriptionViewController: UIViewController {
 
-    @IBOutlet weak var classTableView: UITableViewCell!
+    @IBOutlet weak var transcriptionView: UIView!
+    @IBOutlet weak var transcriptionText: UILabel!
+    @IBOutlet weak var beginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +19,13 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func beginButtonTapped(_ sender: Any) {
+        // User has tapped the "Begin Transcription" button
+    }
+    
+    @IBAction func saveTapped(_ sender: Any) {
+        // User has tapped the save button
+    }
     /*
     // MARK: - Navigation
 

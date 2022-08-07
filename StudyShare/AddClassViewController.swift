@@ -1,16 +1,14 @@
 //
-//  HomeViewController.swift
+//  AddClassViewController.swift
 //  StudyShare
 //
-//  Created by Matthew Jennings on 31/07/22.
+//  Created by Matthew Jennings on 7/08/22.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class AddClassViewController: UIViewController {
 
-    @IBOutlet weak var classTableView: UITableViewCell!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

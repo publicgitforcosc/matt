@@ -1,16 +1,14 @@
 //
-//  HomeViewController.swift
+//  MyContentViewController.swift
 //  StudyShare
 //
-//  Created by Matthew Jennings on 31/07/22.
+//  Created by Matthew Jennings on 7/08/22.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class MyContentViewController: UIViewController {
 
-    @IBOutlet weak var classTableView: UITableViewCell!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
